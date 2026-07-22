@@ -15,7 +15,6 @@ sudo apt install apache2
 getent hosts
 ```
 Vérifie comment le système résout les noms d'hôtes (via `/etc/hosts` et/ou DNS).
-![Page avant](cap1.png)
 
 ## 3. Accéder au serveur depuis le navigateur
 
@@ -24,6 +23,7 @@ Une fois Apache2 installé et démarré, ouvrir dans le navigateur :
 http://<IP-de-la-machine>
 ```
 La page par défaut d'Apache2 s'affiche, confirmant que le serveur fonctionne.
+![Page avant](cap1.png)
 
 ## 4. Modifier la page d'accueil
 
@@ -55,3 +55,4 @@ En rechargeant la page via `http://www.mirado.mg`, le même site s'affiche — l
 sudo nano /etc/apache2/sites-available/default-ssl.conf
 ```
 ## Démo
+[![asciicast](https://asciinema.org/a/NopfLAIAQIWGg6oY.svg)](https://asciinema.org/a/NopfLAIAQIWGg6oY)
